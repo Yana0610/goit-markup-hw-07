@@ -1,0 +1,128 @@
+@media screen and (min-width:768px){
+    .container{
+    width: 768px;
+    }
+    .header-list {
+        display: flex;
+        gap: 40px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #4D5AE5;
+        
+    }
+    .heade-item {
+    }
+    .header-link {
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    position: relative;
+    transition-property: color;
+    transition-duration: var(--time-animation);
+    transition-timing-function: var(--hov-foc-cubic);
+    }
+    .header-link.current::after{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        background-color: #404BBF;
+        border-radius: 2px;
+        left: 0;
+        bottom: -28px;
+    }
+    
+    
+    .header-after-list{
+        display: flex;
+        gap: 40px;
+    
+    }
+    .header-mail,
+    .header-tel {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+        transition-property: color;
+        transition-duration: var(--time-animation);
+        transition-timing-function: var(--hov-foc-cubic);
+        }
+    .header-tel:hover{
+        color: #404BBF;
+    }
+    .header-mail:hover{
+        color: #404BBF;
+    }
+
+    .hero {
+        padding-top: 112px;
+        padding-bottom: 108px;
+        background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+    url(../images/dark-tablet.jpg);
+    }
+    @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .hero {
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                        rgba(46, 47, 66, 0.7)),
+                    url(../images/dark-tablet-2x.jpg);
+            }
+        }
+        .hero-title{
+            max-height: 120px;
+            min-width: 494px;
+        }
+        .hero-btn {
+            margin-top: 40px;
+        }
+    .team-list{
+        display: flex;
+        gap: 24px;
+        /* width: calc((100%-24px) / 2); */
+        text-align: center;
+        justify-content: center;
+        row-gap: 72px;
+    } 
+    .team{
+        padding-top: 96px;
+        padding-bottom: 104px;
+    }
+    .customers > .container {
+        width: 582px;
+    }
+    .customers {
+        padding-top: 96px;
+        padding-bottom: 96px;
+        }
+        .customers-item{
+            width: calc((100% - 60px) / 3);
+        }
+        .customers-list{
+            gap: 24px;
+            row-gap: 72px;
+}
+.about-text{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+
+    justify-content: center;
+    row-gap:72px;
+}
+/* .footer>.container {
+    width: 582px;
+} */
+}
