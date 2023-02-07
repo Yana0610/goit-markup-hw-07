@@ -43,8 +43,8 @@
     
     
     .header-after-list{
-        display: flex;
-        gap: 40px;
+        display: block;
+        margin-bottom: 4px;
     
     }
     .header-mail,
@@ -62,6 +62,12 @@
     }
     .header-mail:hover{
         color: #404BBF;
+    }
+    .menu-open{
+        display: none;
+    }
+    .mob-menu{display: none;
+
     }
 
     .hero {

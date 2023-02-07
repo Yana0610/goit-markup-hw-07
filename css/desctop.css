@@ -22,6 +22,7 @@
                 width: calc((100% - 120px) / 6);
             }
             .customers-list{
+                
                 gap: 24px;
             }
 .about-picture{
@@ -145,4 +146,29 @@ height: 72px;
         max-height: 120px;
         min-width: 553px;
     }
+    .footer>.container {
+        display: flex;
 }
+.subscribe-name {
+    display: flex;
+}
+b
+
+.footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+    margin-top: 16px;
+    max-width: 264px;
+    margin-right: 120px;
+    }
+    .soc-tex {
+        margin-bottom: 16px;
+    }
+    }
+
