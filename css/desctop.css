@@ -14,57 +14,96 @@
     .team {
         padding-top:120px;
         padding-bottom: 120px;}
-        .customers {
-            padding-top: 120px;
-            padding-bottom: 120px;
-            }
+
+        .customers> .container{
+            width: 1158px;
+        }
+
             .customers-item{
-                width: calc((100% - 120px) / 6);
+            width: calc((100% - 120px) / 6);
             }
             .customers-list{
                 
                 gap: 24px;
             }
-.about-picture{
-width: 264px;
-height: 112px;
-display: flex;
-align-items: center;
-justify-content: center;
-margin-bottom: 8px;
-background-color: #F4F4FD;
-border-radius: 4px;
-        }
-.about-text{
-display: flex;
-gap: 24px;
-text-align: center;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2E2F42;
-}
-.about-after-text {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
-width: 264px;
-height: 72px;
-}
-.about {
-    padding-bottom: 120px;
-}
-.about-icon {
-    padding-top: 120px;}
-
-    .header-list {
+            .customers {
+                padding-top: 120px;
+                padding-bottom: 120px;
+                }
+                
+                .customers-list {
+                
+                display: flex;
+                text-align: center;
+                margin-top: 72px;
+                gap: 24px;
+                }
+                
+                .customers-item{
+                display: flex;
+                fill: currentColor;
+             Width:168px;
+                Height:88px;
+                }
+                .about>.container{
+                    width: 1158px;
+                    display: flex;
+                    flex-wrap: wrap;
+                
+                }
+                .about {
+                    display: flex;
+                    justify-content: space-between;
+                    margin: 0 auto;
+                }
+                .about-item {
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 24px; 
+                }
+                .about-text-item {
+                    width: 264px;
+                }
+                .about-icon {
+                    padding-top: 120px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    gap: 24px;
+                }
+                .about-picture{
+                    width: 264px;
+                    height: 112px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 8px;
+                    background-color: #F4F4FD;
+                    border-radius: 4px;
+                }
+                .about-text{
+                    display: flex;
+                    gap: 24px;
+                }
+                .about-text {
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 1.2;
+                    letter-spacing: 0.02em;
+                    color: #2E2F42;
+                    padding-bottom: 8px;
+                }
+                
+                .about-after-text {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 1.5;
+                letter-spacing: 0.02em;
+                color: #434455;}
+                }
+.header-list {
         display: flex;
         gap: 40px;
         font-family: 'Roboto';
@@ -158,17 +197,22 @@ b
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.footer-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #E7E9FC;
-    margin-top: 16px;
-    max-width: 264px;
-    margin-right: 120px;
-    }
-    .soc-tex {
-        margin-bottom: 16px;
-    }
+.before-social {
+    margin-bottom: 0;
+    margin-right: 114px;
+}
+.footer>.container {
+    display: flex;
+        flex-wrap: inherit;
+    width: 1158px;
+    gap: 0;
+}
+.social {
+    margin-right: 75px;
+}
+.modal{
+    width: 408px;
+    min-height: 576px;
+}
     }
 
