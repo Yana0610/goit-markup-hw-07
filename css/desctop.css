@@ -102,7 +102,7 @@
                 line-height: 1.5;
                 letter-spacing: 0.02em;
                 color: #434455;}
-                }
+                
 .header-list {
         display: flex;
         gap: 40px;
@@ -191,7 +191,6 @@
 .subscribe-name {
     display: flex;
 }
-b
 
 .footer {
     padding-top: 100px;
@@ -214,5 +213,5 @@ b
     width: 408px;
     min-height: 576px;
 }
-    }
+}
 
