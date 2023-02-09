@@ -40,62 +40,65 @@ referrerpolicy="no-referrer" />
 <li><a class="header-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
 <li><a class="header-tel link" href="tel:++11(000)1111111">+11 (000) 111-11-11</a></li>
 </ul>
-<button type="button "  class="menu-open " data-menu-open>
-    <svg class="menu-open-icon" width="32" height="22">
-    <use href="./images/icons.svg#icon-charm_menu-hamburger"></use>
-</svg></button>
-    </div>
-    <div class="mob-menu is-hidden " data-menu >
-        <div class="container">
-            <div class="mob-menu-top">
-        <button type="button"  class="menu-close is-hidden "data-menu-close >
-            
-            <svg class="menu-close-icon" width="8" height="8">
-            <use href="./images/icons.svg#icon-close"></use>
-        </svg></button>
-        <ul class="mob-menu-list list">
-            <li class="mob-menu-item"><a class="mob-menu-link link current" href="Studio">Studio</a></li>
-            <li class="mob-menu-item"><a class="mob-menu-link link" href="./portfolio.html">Portfolio</a></li>
-            <li class="mob-menu-item"><a class="mob-menu-link link" href="Contacts">Contacts</a></li>
-            </ul> 
+    <button type="button" class="menu-hamburger" data-menu-open>
+        <svg class="icon-hamburger" width="32" height="22">
+                <use href="./images/icons.svg#icon-charm_menu-hamburger"></use>
+            </svg>
+        </button>
         </div>
-    <div class="mob-menu-bottom">
-    <ul class="mob-menu-after-list list">
-        <li><a class="mob-menu-tel link" href="tel:++11(000)1111111">+11 (000) 111-11-11</a></li>
-    <li><a class="mob-menu-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-    
-    </ul>
-    <ul class="mob-soc-list list">
-        <li class="mob-soc-item">
-        <a class="mob-soc-link link" href="https://www.instagram.com/">
-        <svg class="mob-soc-icon" width="24" height="24">
-            <use href="./images/icons.svg#icon-instagram" ></use>
-        </svg>
-        </a>
-        </li>
-        <li class="mob-soc-item">
-        <a class="mob-soc-link link" href="https://twitter.com/">
-            <svg class="mob-soc-icon"width="24" height="19.5">
-                <use href="./images/icons.svg#icon-twitter"></use>
+
+     <div class="modal-header is-hidden" data-menu>
+        <div class="content-modal">
+            <div class="conteiner-items container-menu">
+                <button class="modal-mobile-close" data-menu-close>
+            <svg class="icon-close-btn"  width="8" height="8">
+                <use href="./images/icons.svg#icon-close"></use>
             </svg>
-        </a>
-    </li>
-        <li class="mob-soc-item">
-            <a class="mob-soc-link link" href="https://facebook.com//">
-            <svg class="mob-soc-icon" width="12" height="24">
-                <use href="./images/icons.svg#icon-facebook"></use>
-            </svg>
-        </a>
-    </li>
-        <li class="mob-soc-item">
-            <a class="mob-soc-link link" href="https://www.linkedin.com/">
-            <svg class="mob-soc-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-linkedin"></use>
-            </svg>
-        </a>
-        </li>
+        </button>
+        <ul class="modal-nav-item list">
+                <li class="linku-menu"><a class="nav-link-menu link" href="./index.html">Studio</a></li>
+                <li class="linku-menu"><a class="nav-link-menu link" href="./portfolio.html">Portfolio</a></li>
+                <li class="linku-menu"><a class="nav-link-menu link" href="#">Contacts</a></li>
+            </ul>
+       </div>
+        <div class="conteiner-contact">
+            <ul class="contact-menu">
+                <li class="contact-tel-mail"><a class="contacts-menu-item nav-tel" href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a></li>
+                <li class="contact-tel-mail"><a class="contacts-menu-mail-item nav-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         </ul>
-    </div>
+        <ul class="mob-soc-list list">
+            <li class="mob-soc-item">
+            <a class="mob-soc-link link" href="https://www.instagram.com/">
+            <svg class="mob-soc-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram" ></use>
+            </svg>
+            </a>
+            </li>
+            <li class="mob-soc-item">
+            <a class="mob-soc-link link" href="https://twitter.com/">
+                <svg class="mob-soc-icon"width="24" height="19.5">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+            </a>
+        </li>
+            <li class="mob-soc-item">
+                <a class="mob-soc-link link" href="https://facebook.com//">
+                <svg class="mob-soc-icon" width="12" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+            </a>
+        </li>
+            <li class="mob-soc-item">
+                <a class="mob-soc-link link" href="https://www.linkedin.com/">
+                <svg class="mob-soc-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+            </a>
+            </li>
+            </ul>
+        
+                </ul>
+        </div>
     </div>
     </div>
 </header>
@@ -436,6 +439,21 @@ srcset="
         </div>
    </div>
 </footer>
+
+    <!-- <div class="ftr-form">
+        <p class="ftr-subscribe">Subscribe</p>
+        <form class="form-sub">
+            <input class="input-mail" type="email" name="email" id="mail-sub" placeholder="E-mail">
+            
+            <button class="button-sub" type="submit"><span class="btn-sub">Subscribe</span>
+                <svg class="icon-sub" width="24" height="24">
+                    <use href="./images/symbol-defs.svg#icon-telegram"></use>
+                </svg>
+            </button>
+        </form>
+        </div>
+   </div>
+</footer> --> -->
 <div class="backdrop is-hidden" data-modal data-backdrop>
     <div class="modal">
         <button class="btn-close" data-modal-close>
