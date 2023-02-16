@@ -83,6 +83,7 @@
                 }
                 .about-text{
                     display: flex;
+                    flex-wrap: nowrap;
                     gap: 24px;
                 }
                 .about-text {
@@ -101,7 +102,9 @@
                 font-size: 16px;
                 line-height: 1.5;
                 letter-spacing: 0.02em;
-                color: #434455;}
+                color: #434455;
+            display: flex;
+            flex-wrap: nowrap;}
                 
 .header-list {
         display: flex;
@@ -164,6 +167,9 @@
     .header-mail:hover{
         color: #404BBF;
     }
+    .menu-hamburger{
+        display: none;
+    }
     .hero {
     padding-top: 188px;
     padding-bottom: 188px;
@@ -184,6 +190,14 @@
     .hero-title{
         max-height: 120px;
         min-width: 553px;
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
     }
     .footer>.container {
         display: flex;
