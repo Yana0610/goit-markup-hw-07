@@ -2,6 +2,12 @@
     .container{
     width: 768px;
     }
+    .header {
+
+        padding-top: 24px;
+        padding-bottom: 22px;
+        
+    }
     .header-list {
         display: flex;
         gap: 40px;
@@ -30,7 +36,22 @@
     transition-duration: var(--time-animation);
     transition-timing-function: var(--hov-foc-cubic);
     }
-    .header-link.current::after{
+    .header-link-new{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #4D5AE5;
+        
+        position: relative;
+        transition-property: color;
+        transition-duration: var(--time-animation);
+        transition-timing-function: var(--hov-foc-cubic);
+
+    }
+    .header-link-new.current::after{
         content: '';
         position: absolute;
         width: 100%;
@@ -38,7 +59,7 @@
         background-color: #404BBF;
         border-radius: 2px;
         left: 0;
-        bottom: -28px;
+        bottom: -42px;
     }
     .header-after-list{
         display: block;
@@ -49,7 +70,7 @@
     }
     .header-mail,
     .header-tel {
-        font-size: 16px;
+        font-size: 12px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
@@ -87,9 +108,19 @@
                     url(../images/dark-tablet-2x.jpg);
             }
         }
-        .hero-title{
+        .hero-title {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1.1;
+            text-align: center;
+            letter-spacing: 0.02em;
+            text-transform: capitalize;
+            color: #FFFFFF;
+            margin: 0 auto;
             max-height: 120px;
-            min-width: 494px;
+            width: 496px;    
         }
         .hero-btn {
             margin-top: 40px;
@@ -110,18 +141,25 @@
         padding-bottom: 104px;
     }
     .customers > .container {
-        width: 582px;
+        /* width: 582px; */
     }
     .customers {
         padding-top: 96px;
         padding-bottom: 96px;
         }
         .customers-item{
-            width: calc((100% - 60px) / 3);
+            width: calc((100% - 234px) / 3);
         }
         .customers-list{
             gap: 24px;
             row-gap: 72px;
+}
+.about{
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+.zagolovok{
+    display: none;
 }
 .about-text{
     display: flex;
@@ -144,22 +182,13 @@ color: #434455;
 .about-text-item {
     width: 356px;
 }   
-/* .mini-container{
-    width: 582px;
-    display: flex;
 
-} */
 .container-footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-/* .footer>.container{
-    width: 768px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-} */
+
 .before-social {
     margin-right: 24px;
     margin-bottom: 72px;
@@ -180,29 +209,19 @@ color: #434455;
 .subscribe-titl {
     text-align: start;
 }
-.subscribe-footer>.container-footer{
-    /* width: 768px; */
-    /* display: flex;
-    flex-wrap: nowrap; */
-}
-/* .subscribe-titl{
-    display: flex;
-} */
-/* .subscribe-footer{
-    width: 100%;
-    padding-left: 108px;
-} */
+.subscribe-footer>.container-footer
+{}
 .subscribe-form {
     display: flex;
     gap: 24px;
 }
 .input-mail {
-    width: 264px;
-    /* margin-right: 24px; */
+    width: 307px;
+    margin-bottom: 0;
 }
 .modal{
     max-width: 408px;
-height: 586px;
+
 }
 
 }
