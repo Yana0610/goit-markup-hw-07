@@ -147,15 +147,16 @@ margin-right: 76px;
 .nav-tel{
     font-weight: 600;
         font-size: 36px;
-        line-height: 40px;
+        line-height: 1.11;
         text-transform: capitalize;    
         color: #4D5AE5;
         margin-bottom: 40px;
 }
+
 .nav-mail {
     font-weight: 500;
         font-size: 20px;
-        line-height: 24px;
+        line-height: 1.2;
         letter-spacing: 0.02em;
         color: #434455;
 }
@@ -208,8 +209,9 @@ position: absolute;
     margin-left: auto;
 }
 .content-modal {
-    margin: auto;
+    margin:0  ;
     max-width: 428px;
+    
 }
 .modal-header > .content-modal {
     display: flex;
@@ -820,8 +822,8 @@ padding-top: 72px;
 padding-bottom: 24px;
 max-width: 392px;
 width: 95%;
-height: 95%;
-max-height: 586px;
+/* height: 95%;
+max-height: 586px; */
 background-color:#FCFCFC;
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 
 0px 2px 1px rgba(0, 0, 0, 0.2);
