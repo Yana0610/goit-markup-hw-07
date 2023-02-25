@@ -146,11 +146,17 @@ margin-right: 76px;
 
 .nav-tel{
     font-weight: 600;
-        font-size: 36px;
+        font-size: 25px;
         line-height: 1.11;
         text-transform: capitalize;    
         color: #4D5AE5;
         margin-bottom: 40px;
+}
+@media screen and (min-width:428px){
+    .nav-tel{
+        font-size: 36px; 
+    }
+    
 }
 
 .nav-mail {
@@ -354,6 +360,10 @@ transition-timing-function: var(--hov-foc-cubic);
     background-color: #404BBF;
 }
 
+.work{
+    display: none;
+}
+
 /* /* --------About---------  */
 
 /* .container{
@@ -371,7 +381,6 @@ transition-timing-function: var(--hov-foc-cubic);
     /* display: flex;
     justify-content: space-between; */
     /* margin: 0 auto; */
-    /* padding-bottom: 96px; */
 }
 .about-item {
     display: flex;

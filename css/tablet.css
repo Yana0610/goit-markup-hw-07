@@ -2,6 +2,9 @@
     .container{
     max-width: 768px;
     }
+    .modal-header{
+        display: none;
+    }
     .header {
 
         padding-top: 24px;
@@ -59,7 +62,7 @@
         background-color: #404BBF;
         border-radius: 2px;
         left: 0;
-        bottom: -42px;
+        bottom: -39px;
     }
     .header-after-list{
         display: block;
@@ -124,15 +127,15 @@
             font-family: 'Roboto';
             font-style: normal;
             font-weight: 700;
-            font-size: 36px;
-            line-height: 1.1;
+            font-size: 56px;
+            line-height:1.07;
             text-align: center;
             letter-spacing: 0.02em;
             text-transform: capitalize;
             color: #FFFFFF;
             margin: 0 auto;
             max-height: 120px;
-            width: 496px;    
+            min-width: 496px;    
         }
         .hero-btn {
             margin-top: 40px;
@@ -140,6 +143,10 @@
         .menu-hamburger{
             display: none;
         }
+
+        .work{
+            display: none;
+        } 
     .team-list{
         display: flex;
         gap: 24px;
@@ -168,7 +175,7 @@
 }
 .about{
     padding-top: 96px;
-    padding-bottom: 96px;
+    /* padding-bottom: 96px; */
 }
 .zagolovok{
     display: none;
